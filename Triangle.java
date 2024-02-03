@@ -11,6 +11,6 @@ public class Triangle {
 			b = Integer.parseInt(args[1]);
 			c = Integer.parseInt(args[2]);
 			boolean x = !(a+b<c || a+c<b || b+c<a);
-			System.out.println(x);
+			System.out.println(a+", "+b+", "+c+": "+x);
 		}
 	}
