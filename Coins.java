@@ -9,6 +9,6 @@ public class Coins {
         int reminder, reva;
         reminder = cents%25;
         reva = cents/25;
-        System.out.println("use " + reva + " quarters and " + reminder + " cents");
+        System.out.println("Use " + reva + " quarters and " + reminder + " cents");
 	}
 }
